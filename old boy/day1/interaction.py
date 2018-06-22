@@ -24,4 +24,5 @@ tel = {_tel}
            _sex=sex,
            _tel=tel)
 
+print(info)
 print(info2)

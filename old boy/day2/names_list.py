@@ -10,15 +10,15 @@ names = ["1zhangsan","李xiaofei","@lisi",["1","2"],"wangwu","maliu","xiaofei"]
 print(names[1])
 print(names[1:3]) #顾头不顾尾,切片
 print(names[:3])
-print(names[-1])
-print(names[-3:-1])
-print(names[-3:])
+print(names[-1])    #>>>xiaofei
+print(names[-3:-1]) #>>>['wangwu', 'maliu']
+print(names[-3:])   #>>>['wangwu', 'maliu', 'xiaofei']
 '''
 '''
 #增
 names.append('xiaofei') #添加到末尾
 names.insert(1,"666") #插入到具体位置，不能批量插入
-print(names)
+print(names)  #>>>['1zhangsan', '666', '李xiaofei', '@lisi', ['1', '2'], 'wangwu', 'maliu', 'xiaofei', 'xiaofei']
 '''
 '''
 #改
@@ -33,7 +33,8 @@ names.pop(1)
 print(names)
 '''
 #索引index
-#print(names[names.index("xiaofei")])
+#print(names[names.index("xiaofei")])   #>>>xiaofei
+
 '''
 print(names.count("xiaofei"))
 #names.clear()#清空列表

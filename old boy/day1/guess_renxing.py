@@ -18,4 +18,6 @@ while count < 3:
 	if count == 3:
 		countine_confirm = input("do you want to keep guessing...?")
 		if countine_confirm != 'n':
-			count = 0 
+			count = 0
+		else:
+			print("good bye!2")
