@@ -31,7 +31,7 @@ print(name,sex) #>>>flying boy
 '''
 #除了字符串和数字外   列表，字典，集合,类都可以局部变量改全局变量
 names = ['zhangsan','lisi','flying']
-names_t
+
 def chang_name():
     names[0] = '777'
     print(names)

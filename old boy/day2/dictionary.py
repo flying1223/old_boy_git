@@ -47,7 +47,7 @@ print("------------------")
 for k,v in info.items():
     print(k,v)             #stu1103 5    stu1106 Flying    2 4    6 8
 
-
-
-
+'''
+eval()字符串转成字典
+'''
 
