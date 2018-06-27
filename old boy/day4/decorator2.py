@@ -1,16 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date    : 2018-06-25 19:52:56
+# @Date    : 2018-06-27 20:26:49
 # @Author  : flying
-'''
-把一个函数当作参数传给另个函数
-'''
-
-def add(a,b,f):
-    return f(a) + f(b)
-
-res = add(3,-6,abs)
-print(res)
 
 '''
 1.把一个函数名当作实参传给另一个函数（在不修改被装饰函数源代码的情况下为其添加功能）
@@ -57,3 +48,6 @@ def test2(func):
 
 bar = test2(bar)
 bar()
+
+
+
