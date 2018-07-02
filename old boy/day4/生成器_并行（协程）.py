@@ -11,6 +11,12 @@ def consumer(name):
 
        print("包子[%s]来了,被[%s]吃了!" %(baozi,name))
 
+# c = consumer("flying")
+# c.__next__()   #next只是在调用yield，不传值
+# b1 = "韭菜馅"
+# c.send(b1)  #调用yield同时传值
+# #c.__next__()
+
 
 def producer(name):
     c = consumer('A')
@@ -24,7 +30,7 @@ def producer(name):
         c.send(i)    #send唤醒并给yield传值   next只唤醒不传值
         c2.send(i)
 
-producer("alex")
+producer("flying")
 
 
 
