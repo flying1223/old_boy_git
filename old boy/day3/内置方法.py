@@ -72,4 +72,15 @@ test()
 print(globals())
 print(globals().get('locals_var'))  #>>>None
 print(pow(2,3)) #>>>8   2的3次方
+print(round(1.3342,2))  #>>>1.33    保留两位
+a = {6:2,8:0,1:4,-5:6,99:11,4:22}
+print(a)
+print(sorted(a.items()))    #按key排序>>>[(-5, 6), (1, 4), (4, 22), (6, 2), (8, 0), (99, 11)]
+print(sorted(a.items(),key = lambda x:x[1]))    #按value排序>>>[(8, 0), (6, 2), (1, 4), (-5, 6), (99, 11), (4, 22)]
+a = [1,2,3,4]
+b = ['a','b','c','d']
+for i in zip(a,b):
+    print(i)    #>>>(1, 'a'),(2, 'b'),(3, 'c'),(4, 'd')
 
+#import func_test1
+__import__('func_test1')

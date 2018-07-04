@@ -71,9 +71,9 @@ print(f.encoding)
 #f.truncate(20) #截断从头开始20个字节
 f = open("yesterday2","r+")  #r+ 读写是读和末尾追加
 #f = open("yesterday2","a+")  #r+ 追加读写
-#f = open("yesterday2","rb")  #r+ 以二进制来进行读文件   网络传输只用二进制   二进制文件用二进制打开
+#f = open("yesterday2","rb")  #rb 以二进制来进行读文件   网络传输只用二进制   二进制文件用二进制打开
 
-#f = open("yesterday2","wb")  #r+ 以二进制来进行写文件
+#f = open("yesterday2","wb")  #wb 以二进制来进行写文件
 #f.write("hello world\n".encode())
 
 print(f.readline())
