@@ -16,5 +16,10 @@ DATABASE = {
     'path':'%s/db'%BASE_DIR
 }
 
-
+TRANSCTION_TYPE = {
+    'repay':{'action':'plus','interest':0},
+    'withdraw':{'action':'minus','interest':0.05},
+    'transfer':{'action':'minus','interest':0.05},
+    'consume':{'action':'minus','interest':0},
+}
 

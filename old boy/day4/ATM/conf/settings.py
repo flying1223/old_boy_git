@@ -3,7 +3,8 @@
 # @Date    : 2018-07-04 20:54:45
 # @Author  : flying
 
-
+def fff():
+    print('i love fff')
 
 
 
