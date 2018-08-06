@@ -4,7 +4,7 @@
 # @Author  : flying
 
 class Role(object):
-    n = 123 #类变量 存在类的内存里
+    n = 123 #类变量 存在类的内存里    大家共用的属性，节省内存
     n_list = []
     def __init__(self,name,role,weapon,life_value=100,money=15000):
         '''
@@ -29,6 +29,10 @@ class Role(object):
 
 r1 = Role("alex","police","ak47")  #把一个类变成一个距离对象的过程 实例化（初始化一个类，造了一个对象）
 #相当于Role(r1,"alex","police","ak47")
+'''
+上面的这个r1 = Role('Alex','police','AK47’)动作，叫做类的“实例化”， 就是把一个虚拟的抽象的类，通过这个动作，变成了一个具体的对象了， 这个对象就叫做实例
+刚才定义的这个类体现了面向对象的第一个基本特性，封装，其实就是使用构造方法将内容封装到某个具体对象中，然后通过对象直接或者self间接获取被封装的内容
+'''
 r1.buy_gun("ak47")  #相当于Role.buy_gun(r1)    >>>alex just bought ak47
 r1.bullet_prove = True  #新加的属性只用于r1
 print(r1.n,r1.name,r1.bullet_prove) #>>>123 alex True
