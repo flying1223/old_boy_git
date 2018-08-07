@@ -1,10 +1,10 @@
 #!/usr/bin/Python
 # -*- coding: utf-8 -*-
-# @Date    : 2018-08-06
-# Author:flying
+# @Date    : 2018-08-07
+# Author   : flying
 
-#class People:  经典类
-class People(object):   #新式类    多继承上的顺序问题
+
+class People(object):
 
     def __init__(self,name,age):
         self.name = name
@@ -19,12 +19,16 @@ class People(object):   #新式类    多继承上的顺序问题
     def sleep(self):
         print("%s is slepping..." %self.name)
 
-class Man(People):
-#对构造函数进行重构，添加一个属性
+class Relation(object):
+
+    def make_friends(self,obj):
+        print("%s is making friends with %s" %(self.name,obj.name))
+
+class Man(People,Relation):
+
     def __init__(self,name,age,money):
 
-        super(Man,self).__init__(name,age)  #新式类的写法
-        #People.__init__(self,name,age)
+        super(Man,self).__init__(name,age)
         self.money = money
         print("%s 一出生就有%s money" %(self.name,self.money))
 
@@ -35,19 +39,17 @@ class Man(People):
         People.sleep(self)
         print("man is sleeping")
 
-class Woman(People):
+class Woman(People,Relation):   #执行第一个类的构造函数，第二个就不执行了，如果第一个没有，则执行第二个
 
     def get_birth(self):
         print("%s is born a boby..." %self.name)
 
 m1 = Man('cuzn',18,10)
-m1.eat()
-m1.piao()
-m1.sleep()
+
 
 w1 = Woman("flying","17")
-w1.get_birth()
 
+m1.make_friends(w1)
 
 
 

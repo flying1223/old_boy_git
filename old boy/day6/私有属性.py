@@ -1,7 +1,7 @@
 #!/usr/bin/Python
 # -*- coding: utf-8 -*-
 # @Date    : 2018-08-06
-# Author:flying
+# Author   : flying
 
 class Role(object):
 
