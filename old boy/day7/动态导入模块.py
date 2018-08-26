@@ -21,7 +21,8 @@ mod = importlib.import_module("lib.aa")
 obj = mod.C()
 print(obj.name)
 
-
+assert type(obj.name) is str
+print('fff')
 
 
 
