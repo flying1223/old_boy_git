@@ -14,7 +14,10 @@ dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # print(sys.path) #导入到列表的最后一个
 sys.path.insert(0,dir)  #导入到列表的第一位
 print(sys.path)
-import p_test
+
+
+
+
 
 
 

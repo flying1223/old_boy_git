@@ -6,7 +6,7 @@
 import socket,os
 
 server = socket.socket()
-server.bind(('localhost',9999))
+server.bind(('localhost',9998))
 
 server.listen()
 
