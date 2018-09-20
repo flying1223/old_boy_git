@@ -18,5 +18,3 @@ import os,sys
 sys.path.append("..")
 
 from test_1 import t1
-
-print()
