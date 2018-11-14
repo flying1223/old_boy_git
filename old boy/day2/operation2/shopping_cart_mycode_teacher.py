@@ -16,7 +16,7 @@ if salary.isdigit():
     salary = int(salary)
     while True:
 #        for item in priduct_list:
-#            print(priduct_list.index(item),item)
+#            print(priduct_list.index.html(item),item)
         for index,item in enumerate(priduct_list):
             print(index,item)
         user_choice = input("选择要买啥：》》》:")

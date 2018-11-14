@@ -35,8 +35,8 @@ for i in range(4):
 '''
 #不打印第十行    这种方法直接读到内存中  只适合小文件   low
 f = open("yesterday",'r',encoding="utf-8")
-for index,line in enumerate(f.readlines()):
-        if index == 9:
+for index.html,line in enumerate(f.readlines()):
+        if index.html == 9:
                 print("---------------")
                 continue
         print(line.strip())
