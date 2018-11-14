@@ -6,7 +6,7 @@
 import socket
 client = socket.socket()
 
-client.connect(('localhost',9999))
+client.connect(('localhost',9998))
 
 while True:
     cmd = input(">>:").strip()
