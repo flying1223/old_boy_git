@@ -16,6 +16,16 @@ HTML
         doctype对应关系 
         HTML标签，标签内部可以写属性  只能有一个HTML标签
         注释 <!--  注释的内容  -->
+    5.标签分类
+        自闭合标签   <meta charset="UTF-8">
+        主动闭合标签  <title>百度</title>
+    6.head标签
+        <meta> 编码，跳转，刷新，关键字，描述，兼容
+        title标签
+        <link/> 图标
+        <style/>
+        <script/>
+        
     -20个标签
 CSS
     -颜色
