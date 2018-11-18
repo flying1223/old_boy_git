@@ -33,7 +33,7 @@ names.pop(1)
 print(names)
 '''
 #索引index
-#print(names[names.index.html("xiaofei")])   #>>>xiaofei
+#print(names[names.index.html_test("xiaofei")])   #>>>xiaofei
 
 '''
 print(names.count("xiaofei"))

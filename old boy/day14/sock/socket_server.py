@@ -8,7 +8,7 @@ import socket
 def handle_request(client):
     buf = client.recv(1024)
     client.send(bytes("HTTP/1.1 200 OK\r\n\r\n",encoding='utf-8')) #python3 需要转换成bytes类型
-    f = open('index.html','rb')
+    f = open('index.html_test','rb')
     data = f.read()
     f.close()
     #client.send(bytes("<h1 style='background-color:red;'>Hello,Seven<h1>",encoding='utf-8'))

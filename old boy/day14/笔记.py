@@ -26,13 +26,27 @@ HTML
         <style/>
         <script/>
     7.body标签
-        图标：&nbsp;  &gt;  &lt;
-        p标签     段落
-        br标签    换行
+        -图标：&nbsp;  &gt;  &lt;
+        -p标签     段落
+        -br标签    换行
         -----小总结-----
             所以标签分为：
-                快级标签：    h系列（特点：加大加粗），p系列（段落和段落之间有间距）
+                快级标签：    h系列（特点：加大加粗），p系列（段落和段落之间有间距） div(白板)
                 行内标签：    span标签（白板，不带任何特性）
+            标签之间可以嵌套
+            标签存在的意义：定位操作，css操作，js操作
+            Chrome：审查元素的使用
+                ——定位
+                ——查看样式
+        -input系列
+            input type='text'       -name属性 value='故宫'
+            input type='password'   -name属性
+            input type='button'     -value='提交' 按钮
+            input type='submit'     -value='登录' 提交按钮，表单form标签
+            input type='reset'      -重置，清空选项
+            input type='radio'      -单选框 value，checked="checked"默认值，name（name相同）互斥
+            input type='checkBox'   -复选框 value，checked="checked"默认值，name（批量操作）
+            input type='file'       -依赖form表单的一个属性 enctype="multipart/form-data"
     -20个标签
 CSS
     -颜色
