@@ -7,6 +7,27 @@
 <body>
     <form enctype="multipart/form-data">
         <div>
+            <select name="city">
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">南京</option>
+                <option value="4">成都</option>
+                <option value="5" selected="selected">杭州</option>
+            </select>
+            <select name="city" size="7">
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">南京</option>
+                <option value="4">成都</option>
+                <option value="5" selected="selected">杭州</option>
+            </select>
+            <select name="city" multiple="multiple">
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">南京</option>
+                <option value="4">成都</option>
+                <option value="5" selected="selected">杭州</option>
+            </select>
             <input type="text" name="user">
             <p>请选择性别:</p>
             男：<input type="radio" name="gender" value="1" checked="checked">
@@ -22,6 +43,7 @@
             <p>上传文件</p>
             <input type="file" name="fname">
         </div>
+        <textarea name="meno" >fff</textarea>
         <input type="submit" value="提交">
         <input type="reset" value="重置">
     </form>

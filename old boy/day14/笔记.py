@@ -47,6 +47,12 @@ HTML
             input type='radio'      -单选框 value，checked="checked"默认值，name（name相同）互斥
             input type='checkBox'   -复选框 value，checked="checked"默认值，name（批量操作）
             input type='file'       -依赖form表单的一个属性 enctype="multipart/form-data"
+            <textarea>默认值</textarea>    -name属性 多行文本输入
+            select标签               -name，内部option value，提交到后台，size，muiltiple（多选）
+        -a标签
+            - 跳转
+            - 锚 herf="#某个标签的id" 标签id不允许重复
+            
     -20个标签
 CSS
     -颜色
