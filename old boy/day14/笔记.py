@@ -38,7 +38,7 @@ HTML
             Chrome：审查元素的使用
                 ——定位
                 ——查看样式
-        -input系列
+        -input系列——s6
             input type='text'       -name属性 value='故宫'
             input type='password'   -name属性
             input type='button'     -value='提交' 按钮
@@ -49,9 +49,18 @@ HTML
             input type='file'       -依赖form表单的一个属性 enctype="multipart/form-data"
             <textarea>默认值</textarea>    -name属性 多行文本输入
             select标签               -name，内部option value，提交到后台，size，muiltiple（多选）
-        -a标签
+        -a标签——s7
             - 跳转
             - 锚 herf="#某个标签的id" 标签id不允许重复
+        -img——s8
+            - src
+            - alt
+            - title
+        -列表——s8
+            -ul     li
+            -ol     li
+            -dl     dt  dd
+        -表格——s9
             
     -20个标签
 CSS
