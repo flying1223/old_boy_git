@@ -61,6 +61,15 @@ HTML
             -ol     li
             -dl     dt  dd
         -表格——s9
+            table
+                thead
+                    tr  
+                        th
+                tbody
+                    tr
+                        td
+            colspan     列合并
+            rowspan     行和并
             
     -20个标签
 CSS
