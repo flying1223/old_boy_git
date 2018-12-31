@@ -38,7 +38,7 @@ HTML
             Chrome：审查元素的使用
                 ——定位
                 ——查看样式
-        -input系列——s6
+        -input系列——s6+form标签
             input type='text'       -name属性 value='故宫'
             input type='password'   -name属性
             input type='button'     -value='提交' 按钮
@@ -70,10 +70,53 @@ HTML
                         td
             colspan     列合并
             rowspan     行和并
+        -label——s10
+            用于点击文字，使得关联的标签获取光标
+        -fieldset——s10
+            legend
                    
     -20个标签
     
 CSS
+    在标签上设置style属性
+        background-color:#ff5722;
+        height:48px
+        。。。
+    编写css样式——s11
+        1.标签的style属性
+        2.写在head里面的style标签中写样式
+            -id选择区
+                #i1{
+                    background-color:#ff5722;
+                    height:48px
+                }
+            -class选择器
+                    .c1{
+                        ...
+                    }
+                    <div class="c1">4</div>
+            -标签选择器
+                    div{
+                        background-color:black;
+                        color:white;
+                    }
+                    所有div设置上此样式
+            -层级选择器（空格）
+                    .c1 .c2 div{
+                    ...
+                    }
+            -组合选择器（逗号）
+                    .c2,.c3,.c4,#c5{
+                    ...
+                    }
+            -属性选择器
+                    input[type='text']{width:100px;height:200px}
+                    input[n='fff']{width:100px;height:200px}
+                    .c777[n='flying']{width:10px;height:20px}                                     
+        3.注释
+            /*      */
+
+    
     -颜色
     -位置
 '''
