@@ -84,7 +84,7 @@ CSS
         。。。
     编写css样式——s11
         1.标签的style属性
-        2.写在head里面的style标签中写样式
+        2.写在head里面  style标签中写样式
             -id选择区
                 #i1{
                     background-color:#ff5722;
@@ -112,7 +112,12 @@ CSS
             -属性选择器
                     input[type='text']{width:100px;height:200px}
                     input[n='fff']{width:100px;height:200px}
-                    .c777[n='flying']{width:10px;height:20px}                                     
+                    .c777[n='flying']{width:10px;height:20px} 
+        2.5 css样式也可以写在单独的文件中
+                    <link rel="stylesheet" href="css/commons.css">
+
+            ps:
+                优先级，标签上style优先，编写顺然，就近原则（靠下的优先）                                   
         3.注释
             /*      */
 
