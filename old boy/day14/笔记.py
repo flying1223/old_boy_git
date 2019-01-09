@@ -120,11 +120,36 @@ CSS
                 优先级，标签上style优先，编写顺然，就近原则（靠下的优先）                                   
         3.注释
             /*      */
-        4.边框
+        4.边框--s14
             -宽度，样式，颜色（border:4px dotted red;）
             -border-left
-        5.height,width,line-height,color,font-size,font-weight
+        5.--s14
+            height,         高度
+            width,          宽度 （像素 百分比）
+            text-align: center  水平方向居中
+            line-height,    垂直方向根据标签高度
+            color,          字体颜色
+            font-size,      字体大小
+            font-weight     字体加粗
+        6.float--s15
+            让标签浪起来，块级标签也可以堆叠
+            父级管不住
+                <div style="clear:both;"></div>
+        7.display--s17
+            display: none;  让标签消失
+            display: inline;
+            display: block;
+            display: inline-block;
+                        具有inline，默认自己有多少占多少
+                        具有block，可以设置高度，宽度，边距 （padding margin）
+            ***
+            行内标签：无法设置高度，宽度，边距 （padding margin）
+            块级标签：可以设置高度，宽度，边距 （padding margin）
+        8.padding margin（0 auto）
+            边距，
+            padding 内边距
 
+            margin  外边距
     
     -颜色
     -位置
