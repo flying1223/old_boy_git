@@ -120,6 +120,10 @@ CSS
                 优先级，标签上style优先，编写顺然，就近原则（靠下的优先）                                   
         3.注释
             /*      */
+        4.边框
+            -宽度，样式，颜色（border:4px dotted red;）
+            -border-left
+        5.height,width,line-height,color,font-size,font-weight
 
     
     -颜色
