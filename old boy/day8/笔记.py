@@ -9,10 +9,10 @@
 '''
 静态方法
     与类无关，不能访问类里的任何属性和方法
-
 类方法
     只能访问类变量
-属性@property
+属性
+    @property
     把一个方法变成一个静态属性
     flight.status
     @status.setter

@@ -23,7 +23,7 @@ print('W11'.islower())#是否是小写>>>False
 print('F77'.isnumeric())#是否是数字>>>False
 print('F77'.isspace())#是否是空格>>>False
 print('I Love You'.istitle())#是否是title,每个字符第一个字母大写>>>True
-print('I Love You'.isprintable())#tty file,drive file不能打印>>>True
+print('I Love You'.isprintable())#tty file,drive fil e不能打印>>>True
 print('I Love You'.isupper())#是否全是大写>>>False
 print(','.join(['1','2','3']))#>>>1,2,3
 print('+'.join(['1','2','3']))#>>>1+2+3
