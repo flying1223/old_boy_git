@@ -27,7 +27,7 @@ class Role(object):
     def buy_gun(self,gun_name):
         print("%s just bought %s" %(self.name,gun_name))
 
-r1 = Role("alex","police","ak47")  #把一个类变成一个距离对象的过程 实例化（初始化一个类，造了一个对象）
+r1 = Role("alex","police","ak48")  #把一个类变成一个距离对象的过程 实例化（初始化一个类，造了一个对象）
 #相当于Role(r1,"alex","police","ak47")
 '''
 上面的这个r1 = Role('Alex','police','AK47’)动作，叫做类的“实例化”， 就是把一个虚拟的抽象的类，通过这个动作，变成了一个具体的对象了， 这个对象就叫做实例
