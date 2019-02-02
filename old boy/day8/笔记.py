@@ -76,10 +76,12 @@ socket
             conn.send(data.upper())
 
     client:
-    client = socket.socket()
-    client.connect(serverip,9999)
-    client.send(data)
-    client.recv(data)
+        client = socket.socket()
+        client.connect(serverip,9999)
+        client.send(data)
+        client.recv(data)
+
+    socket 粘包
 
 '''
 #

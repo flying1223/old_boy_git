@@ -3,7 +3,7 @@
 # @Date    : 2018-08-26
 # @Author  : flying
 
-import socket,os
+import socket,os,time
 
 server = socket.socket()
 server.bind(('localhost',9998))
@@ -25,6 +25,8 @@ while True:
         if len(cmd_res) == 0:
             cmd_res = 'cmd has no output ...'
         conn.send(str(len(cmd_res.encode('utf-8'))).encode('utf-8'))    #先发大小给客户端
+        #time.sleep(0.5) #解决粘包问题 不推荐
+        clent_ack = conn.recv(1024) #wait client to confirm
         conn.send(cmd_res.encode('utf-8'))
 
 server.close()
