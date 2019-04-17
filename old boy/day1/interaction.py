@@ -7,6 +7,7 @@ sex = input("请输入你的性别：")
 tel = int(input("请输入你的电话："))
 
 
+
 info = '''
 ------ info of %s------
 name = %s

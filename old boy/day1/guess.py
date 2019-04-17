@@ -5,6 +5,7 @@
 
 age_of_oldboy = 56
 
+
 count = 0
 while count < 3:
 	guess_age = int(input("guess age:"))
