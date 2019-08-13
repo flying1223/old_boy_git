@@ -14,12 +14,13 @@ def random_list(n):
         age = random.randint(18,60)
         id = ids[i]
         name = random.choice(a1)+random.choice(a2)+random.choice(a3)
-        dir = {id,age,name}
+        dir = {'id':id,'name':name,'age':age}
+        print(dir)
         result.append(dir)
     print(result)
     return result
 
-random_list(60)
+random_list(6)
 
 
 
