@@ -22,6 +22,7 @@ def bubble_sort(li):
             if li[j] > li[j+1]:
                 li[j],li[j+1] = li[j+1],li[j]
 
+
 # 优化
 @cal_time
 def bubble_sort_2(li):
