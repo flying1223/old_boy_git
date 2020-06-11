@@ -39,7 +39,7 @@ print("flying".translate(p))#>>>567ing
 print("flying love ".replace('l','f')) #>>>ffying fove
 print("flying love ".replace('l','f',1)) #>>>ffying love
 print("flying love ".rfind('l')) #从左往右数找到最右边的下标给返回>>>7
-print("fly ing love".split())#把字符串按照空格分成一个列表.>>>['flying', 'love']
+print("fly ing love".split())#把字符串按照空格分成一个列表.>>>['fly', 'ing', 'love']
 print("fly ing love".split('l'))#把字符串按照l分成一个列表.>>>['f', 'y ing ', 'ove']
 print("fly in\ng love".splitlines())#换行分割>>>['fly in', 'g love']
 print("Flying lovE".swapcase())#大小写转换>>>fLYING LOVe
