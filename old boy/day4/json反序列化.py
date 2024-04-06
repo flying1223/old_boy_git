@@ -18,11 +18,11 @@
 #
 # data = json.loads(f.read()) #>>>flying
 # print(data['name'])
-import pickle
-
-def sayhi(name):
-
-f = open('test.txt','rb')
-data = pickle.loads(f.read())
-print(data)
-print(data['func']("flying"))
+# import pickle
+#
+# def sayhi(name):
+#
+# f = open('test.txt','rb')
+# data = pickle.loads(f.read())
+# print(data)
+# print(data['func']("flying"))
