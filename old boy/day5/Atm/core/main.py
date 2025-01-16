@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 # @Date    : 2018-07-04 20:55:05
 # @Author  : flying
-from core import auth
-from core import accounts
-from core import logger
-from core import accounts
-from core import transaction
-from core.auth import login_required
+from day5.Atm.core import auth,accounts,transaction
+# from core import accounts
+# from core import logger
+# from core import accounts
+# from core import transaction
+# from core.auth import login_required
 import time
 
 
